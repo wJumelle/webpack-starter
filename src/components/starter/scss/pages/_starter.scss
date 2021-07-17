@@ -1,0 +1,28 @@
+@use '../abstract' as *;
+
+body {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/bkg.jpg');
+    background-size: cover;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    max-width: 475px;
+    margin: 0;
+    padding: 50px 50px 50px 35px;
+    background: hsl(271deg 49% 17% / 50%);
+    font-family: "Montserrat Alternate Bold", sans-serif;
+    color: #FFF;
+}
+
+h1 img {
+    width: 75px;
+    margin-right: 10px;
+}
