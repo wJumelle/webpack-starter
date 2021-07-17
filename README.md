@@ -5,7 +5,7 @@
 2. [Installation](#installation)
 3. [Scripts npm](#scripts-npm)
 4. [Configuration en place](#configuration-en-place)
-5. [Dépendances](#dependances)
+5. [Dépendances](#dépendances)
 6. [En savoir plus](#en-savoir-plus)
 7. [Tips divers](#tips-divers)
 
@@ -91,21 +91,21 @@ Si jamais il est nécessaire d'**utiliser une variable globale** (l'usage des va
 
 Il est aussi possible de charger des **polyfills** de manière moins automatisé qu'en utilisant Babel pour directement transpiler notre code. Pour cela, vous pouvez avoir voir la [**documentation**](https://webpack.js.org/guides/shimming/#loading-polyfills) autour du chargement dynamique des polyfills.
 
-## 💡 Tips divers
+## Tips divers
 
-> ### Ouverture d'un onglet automatisé
+> ### 💡 Ouverture d'un onglet automatisé
 > Il est possible d'ouvrir par défaut un nouvel onglet dans votre navigateur lorsque vous utilisez la commande `npm run dev` via l'option `--open`.
 
 
-> ### Gestion du Code Splitting
+> ### 💡 Gestion du Code Splitting
 >Il est possible d'améliorer son code en le séparant de manière efficace et optimisée. Pour cela, vous pouvez lire le guide sur le [**Code splitting**](https://webpack.js.org/guides/code-splitting/). Cet élément dépend du projet que l'on souhaite développer, il ne peut donc être intégré au starter.
 > Il est conseillé d'utiliser l'import dynamique à l'aide de la synthax `import()` de l'ECMAscript dans vos projets. Cela nécessite, pour les anciens navigateurs, de mettre en place le polyfill autour des **Promises**.
 
-> ### Optimisation de Babel
+> ### 💡 Optimisation de Babel
 > Si Babel ralentit votre projet, il est possible de l'[**optimiser d'avantage**](https://webpack.js.org/loaders/babel-loader/#babel-is-injecting-helpers-into-each-file-and-bloating-my-code).
 
-> ### Lazy loading
+> ### 💡 Lazy loading
 > Il est possible d'améliorer encore d'avantage le temps de chargement d'une app via le [**lazy loading**](https://webpack.js.org/guides/lazy-loading/). Ce paramétrage étant à inclure dans un projet en cours de développement, il ne peut, lui non plus, être inclus dans le starter.
 
-> ### Guidelines SASS en français
+> ### 💡 Guidelines SASS en français
 > Voici les guidelines à suivre pour [**SASS**](https://sass-guidelin.es/fr/).
