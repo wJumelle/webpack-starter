@@ -9,7 +9,7 @@ let devConfig = {
     // Paramétrage du serveur webpack
     devServer: {
         // Indication du dossier dans lequel le serveur doit aller piocher les fichiers à afficher
-        contentBase: './dist',
+        static: './dist',
         // Mise en place du Hot Module Reload
         hot: true,
     },
@@ -24,6 +24,8 @@ let devConfig = {
     performance: {
         // En dév nous souhaitons afficher des warnings
         hints: 'warning',
+        maxEntrypointSize: 1000000,
+        maxAssetSize: 1000000,
     }
 };
 
